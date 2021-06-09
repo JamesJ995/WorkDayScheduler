@@ -1,4 +1,4 @@
-var currentDate = moment().format("Do of MMMM, YYYY, ka");
+var currentDate = moment().format("Do of MMMM, YYYY, ha");
 var hour9 = $("#time9am");
 var hour10 = $("#time10am");
 var hour11 = $("#time11am");
