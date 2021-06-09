@@ -35,7 +35,7 @@ function populateLocalStorage() {
 
 //render the "past present or future" color coding according to the hour of the day when the page is loaded.
 function renderTime() {
-  var currentHour = moment().format("ka");
+  var currentHour = moment().format("ha");
   console.log(currentHour);
 
   //loop through each time block
